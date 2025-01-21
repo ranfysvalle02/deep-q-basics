@@ -1,6 +1,6 @@
 # Empowering Robots to Make Smart Decisions
 
-![](https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/06/7551747596_518244cbdd_k_crop-e4f6eccb90082297cfc3208001d8506c-1.jpg)
+![](https://miro.medium.com/v2/resize:fit:1358/1*uDwUOs1zGADrkDxJH0VVXQ.png)
 
 **Imagine a robot standing at the entrance of a sprawling maze, its mission clear yet challenging: find the hidden treasure at the maze's end while deftly avoiding lurking traps.** To accomplish this, the robot must learn to make smart decisions—choosing the right path at the right time to maximize its chances of success. This journey mirrors how humans make decisions, weighing options, learning from past experiences, and adapting strategies to achieve desired outcomes. In the realm of artificial intelligence, **Deep Q-Learning (DQN)** empowers robots to emulate this decision-making prowess, enabling them to navigate complex environments intelligently.
 
