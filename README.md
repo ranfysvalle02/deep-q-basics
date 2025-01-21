@@ -20,6 +20,8 @@ In Deep Q-Learning, the neural network serves as the robot's brain, processing i
 
 ### Understanding Regression and Linear Relationships
 
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644.png)
+
 **Regression** is a statistical method used to model and analyze the relationships between variables. In neural networks, regression helps in predicting continuous outcomes based on input data. For instance, in our maze scenario, regression allows the network to estimate the expected rewards associated with each possible action the robot can take from its current position.
 
 **Linear relationships** refer to scenarios where changes in one variable result in proportional changes in another. Neural networks leverage linear transformations (through layers of neurons) to capture these relationships. By stacking multiple layers with non-linear activation functions like ReLU, the network can model complex, non-linear patterns essential for decision-making in dynamic environments like mazes.
