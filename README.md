@@ -75,11 +75,6 @@ class ReplayBuffer:
         return len(self.buffer)
 ```
 
-**Why Use `deque`?**
-
-The `deque` data structure is ideal for implementing a replay buffer due to its efficiency in adding and removing elements from both ends. By setting a `maxlen`, it automatically discards the oldest experiences when new ones are added beyond its capacity. This ensures that the replay buffer always contains the most recent and relevant experiences, which are crucial for effective learning.
-
-
 ### Target Network: Stabilizing the Learning Process
 
 ![](https://miro.medium.com/v2/resize:fit:1036/1*99Su482PJlvtkji_4n0A_Q.png)
