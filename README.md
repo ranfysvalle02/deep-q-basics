@@ -59,6 +59,8 @@ To enhance learning efficiency and stability, DQN utilizes an **experience repla
 
 ### Visualizing Experience Replay
 
+![](https://user-images.githubusercontent.com/15806078/153222406-af5ce6f0-4696-4a24-a683-46ad4939170c.gif)
+
 Imagine a video game recording:
 
 1. **Recording Memories (Buffer):** The robot records its experiences as it navigates the maze.
@@ -79,6 +81,8 @@ Deep Q-Learning introduces a **target network**, a separate copy of the policy n
 ## Training the Agent: From Trial to Triumph
 
 Training involves running multiple episodes where the robot interacts with the maze environment, collects experiences, and updates the neural network based on these experiences. Throughout training, the robot's performance is monitored, and progress updates indicate whether it's improving, progressing well, or still learning.
+
+![](https://gymnasium.farama.org/_images/AE_loop.png)
 
 ### The Training Journey
 
