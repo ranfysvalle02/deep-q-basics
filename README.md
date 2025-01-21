@@ -72,6 +72,11 @@ Training involves running multiple episodes where the robot interacts with the m
 
 Through repeated interactions and learning from past experiences, the robot hones its decision-making abilities, steadily improving its navigation strategy.
 
+### Observing the Learning Progress
+
+Early Episodes: High exploration, random actions, and lower rewards.
+Later Episodes: Increased exploitation, more efficient paths, and higher rewards.
+
 ---
 
 ## Real-World Applications
@@ -212,6 +217,11 @@ class ReplayBuffer:
 - **Storage:** Experiences are stored as tuples containing the state, action, reward, next state, and a flag indicating if the episode ended.
 - **Sampling:** Random batches are sampled from the buffer to train the network, ensuring the model learns from a variety of experiences.
 - **Capacity:** The buffer has a maximum capacity, removing the oldest experiences when full to make room for new ones.
+
+**Key Takeaways:**
+- **Capacity:** Limits the buffer to a fixed size.
+- **Push:** Adds new experiences to the buffer.
+- **Sample:** Retrieves a random batch for training.
 
 ### Creating the DQN Agent
 
