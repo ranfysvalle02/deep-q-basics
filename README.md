@@ -2,7 +2,7 @@
 
 ---
 
-# From Straight Lines to Smart Decisions: A Kid-Friendly Guide to Deep Q-Learning and Regression
+# From Straight Lines to Smart Decisions: The Magic of Regression
 
 ---
 
