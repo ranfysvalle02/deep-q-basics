@@ -417,7 +417,7 @@ A target network is a copy of the policy network used to provide stable target Q
 
 ---  
    
-## Appendix: Connecting Deep Q-Learning with Transformers and Models like GPT-3  
+## Appendix: Connecting Deep Q-Learning with Transformers  
    
 ### Understanding Transformers 
 
