@@ -72,6 +72,8 @@ This replay system ensures the robot learns from diverse experiences, not just r
 
 ### Target Network: Stabilizing the Learning Process
 
+![](https://miro.medium.com/v2/resize:fit:1036/1*99Su482PJlvtkji_4n0A_Q.png)
+
 Deep Q-Learning introduces a **target network**, a separate copy of the policy network that remains fixed for a set number of steps. This separation helps stabilize training by providing consistent Q-value targets, reducing oscillations and divergence that can occur when both networks are updated simultaneously. Periodically syncing the target network with the policy network ensures that the agent has a stable reference point for evaluating future actions, enhancing the overall learning stability.
 
 ---
@@ -79,8 +81,6 @@ Deep Q-Learning introduces a **target network**, a separate copy of the policy n
 ## Training the Agent: From Trial to Triumph
 
 Training involves running multiple episodes where the robot interacts with the maze environment, collects experiences, and updates the neural network based on these experiences. Throughout training, the robot's performance is monitored, and progress updates indicate whether it's improving, progressing well, or still learning.
-
-![](https://gymnasium.farama.org/_images/AE_loop.png)
 
 ### The Training Journey
 
